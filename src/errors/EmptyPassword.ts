@@ -1,4 +1,4 @@
-export class EmptyPassword extends Error {
+export class EmptyPasswordError extends Error {
     constructor(){
         super();
         this.message = 'The password cannot be blank'
